@@ -290,6 +290,46 @@ footer .content .s-row a {
   margin: 0;
 }
 
+.pagination-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.pagination-block .page-item {
+  margin: 0 10px;
+}
+.pagination-block .page-item .page-link {
+  color: #8c8c8c;
+  background-color: white;
+  border-color: #8c8c8c;
+  border-radius: 27px;
+  padding: 0.625rem 1rem;
+}
+.pagination-block .page-item .page-link:hover {
+  background-color: #f15a29;
+  border-color: #f15a29;
+  color: white;
+}
+.pagination-block .page-item + .active .page-link {
+  color: #f15a29;
+  border-color: #f15a29;
+}
+.pagination-block .page-item + .active .page-link:hover {
+  background-color: #f15a29;
+  color: white;
+}
+.pagination-block .next-btn:hover .page-link {
+  border: 1px solid #f15a29 !important;
+  background-color: white !important;
+  color: #f15a29;
+}
+.pagination-block .next-prev:hover .page-link {
+  border-color: #f15a29 !important;
+  background-color: white !important;
+  color: #f15a29;
+}
+
 .main {
   background-image: url("../img/bg-main.png");
   background-position: center center;
@@ -2316,35 +2356,6 @@ footer .content .s-row a {
 }
 .games-page .games-container .game-container .buttons-container .col-4:first-child {
   padding: 0;
-}
-.games-page .pagination-block {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 40px;
-}
-.games-page .pagination-block .page-item {
-  margin: 0 10px;
-}
-.games-page .pagination-block .page-item .page-link {
-  color: #8c8c8c;
-  background-color: white;
-  border-color: #8c8c8c;
-  border-radius: 27px;
-  padding: 0.625rem 1rem;
-}
-.games-page .pagination-block .page-item .page-link:hover {
-  background-color: #f15a29;
-  border-color: #f15a29;
-  color: white;
-}
-.games-page .pagination-block .page-item + .active .page-link {
-  color: #f15a29;
-  border-color: #f15a29;
-}
-.games-page .pagination-block .page-item + .active .page-link:hover {
-  background-color: #f15a29;
-  color: white;
 }
 
 @media screen and (max-width: 375px) {
