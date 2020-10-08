@@ -2436,3 +2436,114 @@ footer .content .s-row a {
     padding: 7px 10px !important;
   }
 }
+.coaches-page {
+  font-family: "MuseoCyrl100", serif;
+  margin-bottom: 90px;
+}
+.coaches-page .page__header {
+  margin-bottom: 30px;
+}
+.coaches-page h2 {
+  font-size: 55px;
+  font-family: "MuseoCyrl700", serif;
+}
+.coaches-page h5 {
+  font-size: 25px;
+  font-family: "MuseoCyrl700", serif;
+}
+.coaches-page .single-coach {
+  margin-bottom: 30px;
+}
+.coaches-page .single-coach .single-coach-container {
+  border-radius: 20px;
+  padding: 30px 20px;
+  background-color: #f7f7f7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.coaches-page .single-coach .row {
+  margin: 0;
+}
+.coaches-page .single-coach img {
+  width: 100%;
+  border-radius: 50%;
+}
+.coaches-page .single-coach button {
+  background-color: transparent;
+  font-family: "MuseoCyrl500", serif;
+  font-size: 14px;
+  border: 1px solid #1d1d1d;
+  padding: 5px 20px;
+  border-radius: 30px;
+  color: #1d1d1d;
+}
+
+@media screen and (max-width: 375px) {
+  .coaches-page h2 {
+    font-size: 20px;
+  }
+  .coaches-page h5 {
+    font-size: 14px;
+  }
+  .coaches-page .single-coach {
+    margin-bottom: 30px;
+  }
+  .coaches-page .single-coach .single-coach-container {
+    padding: 30px 20px;
+  }
+  .coaches-page .single-coach .single-coach-container p {
+    font-size: 12px;
+  }
+  .coaches-page .single-coach .single-coach-container .coach-details {
+    margin-top: 15px;
+    text-align: center;
+  }
+  .coaches-page .single-coach button {
+    font-size: 12px;
+    padding: 5px 20px;
+    border-radius: 30px;
+  }
+  .coaches-page .coach-avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .coaches-page .coach-avatar img {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  .coaches-page h2 {
+    font-size: 20px;
+  }
+  .coaches-page h5 {
+    font-size: 18px;
+  }
+  .coaches-page .single-coach {
+    margin-bottom: 30px;
+  }
+  .coaches-page .single-coach .single-coach-container {
+    padding: 30px 20px;
+  }
+  .coaches-page .single-coach .single-coach-container p {
+    font-size: 15px;
+  }
+  .coaches-page .single-coach .single-coach-container .coach-details {
+    margin-top: 15px;
+    text-align: center;
+  }
+  .coaches-page .single-coach button {
+    font-size: 12px;
+    padding: 5px 20px;
+    border-radius: 30px;
+  }
+  .coaches-page .coach-avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .coaches-page .coach-avatar img {
+    width: 50%;
+  }
+}

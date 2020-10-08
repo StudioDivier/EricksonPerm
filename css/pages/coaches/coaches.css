@@ -1,0 +1,15 @@
+.coaches-page {
+  font-family: "MuseoCyrl100", serif;
+  margin-bottom: 90px;
+}
+.coaches-page .page__header {
+  margin-bottom: 30px;
+}
+.coaches-page h2 {
+  font-size: 55px;
+  font-family: "MuseoCyrl700", serif;
+}
+.coaches-page h5 {
+  font-size: 25px;
+  font-family: "MuseoCyrl700", serif;
+}
