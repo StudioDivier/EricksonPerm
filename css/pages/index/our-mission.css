@@ -1,0 +1,10 @@
+.banner2 {
+  background-image: url("../img/banner2/bg-banner2.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}

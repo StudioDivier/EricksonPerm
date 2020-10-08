@@ -1,0 +1,14 @@
+.study {
+  background-image: url("../img/bg-study.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding-top: 35px;
+}
+.study .name h2 {
+  font-size: 55px;
+  font-family: "MuseoCyrl700", serif;
+  margin-bottom: 25px;
+}

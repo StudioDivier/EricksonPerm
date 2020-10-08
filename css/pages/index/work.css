@@ -1,0 +1,27 @@
+.near-work {
+  background-image: url("../img/work/bg-work.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.near-work .row {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.near-work .row .text {
+  font-family: "MuseoCyrl100", serif;
+}
+.near-work .row .text .f {
+  font-size: 36px;
+}
+.near-work .row .text .s {
+  font-family: "MuseoCyrl700", serif;
+  font-size: 48px;
+}
+.near-work .row .text .t {
+  font-size: 22px;
+}

@@ -1,0 +1,18 @@
+.couching {
+  background-image: url("../img/bg-couch.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+@media (min-width: 992px) {
+  .couching {
+    height: 680px;
+  }
+}
+.couching .couch-card {
+  border: 4px solid #ed700b;
+  border-image: url("../img/border-card.png");
+  opacity: 0.42;
+}
