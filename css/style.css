@@ -2180,3 +2180,83 @@ footer .content .s-row a {
     font-size: 15px;
   }
 }
+.detailed-review {
+  font-family: "MuseoCyrl100", serif;
+  margin-bottom: 125px;
+}
+.detailed-review .quote-block {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.detailed-review .quote-block .quote-block__text {
+  height: 100%;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.detailed-review .quote-block .quote-block__text p {
+  font-size: 18px;
+}
+.detailed-review .quote-block .quote-block__text p:last-child {
+  margin-bottom: 0;
+}
+.detailed-review .quote-block .quote-block__text .detailed-review__subHeader {
+  font-size: 22px;
+}
+.detailed-review img {
+  width: 100%;
+  border-radius: 20px;
+}
+.detailed-review h2 {
+  font-size: 55px;
+  font-family: "MuseoCyrl700", serif;
+}
+.detailed-review h4 {
+  font-size: 35px;
+  font-family: "MuseoCyrl700", serif;
+}
+.detailed-review p {
+  font-size: 22px;
+}
+
+@media screen and (max-width: 375px) {
+  .detailed-review h2 {
+    font-size: 20px;
+  }
+  .detailed-review h4 {
+    font-size: 14px;
+  }
+  .detailed-review p {
+    font-size: 12px !important;
+  }
+  .detailed-review .detailed-review__subHeader {
+    font-size: 16px !important;
+  }
+  .detailed-review .quote-block {
+    margin-bottom: 20px;
+  }
+  .detailed-review .quote-block .quote-block__text {
+    padding: 20px 30px;
+  }
+}
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  .detailed-review h2 {
+    font-size: 20px;
+  }
+  .detailed-review h4 {
+    font-size: 14px;
+  }
+  .detailed-review p {
+    font-size: 15px !important;
+  }
+  .detailed-review .detailed-review__subHeader {
+    font-size: 18px !important;
+  }
+  .detailed-review .quote-block {
+    margin-bottom: 20px;
+  }
+  .detailed-review .quote-block .quote-block__text {
+    padding: 20px 30px;
+  }
+}
