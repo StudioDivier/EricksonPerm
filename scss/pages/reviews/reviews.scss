@@ -1,0 +1,57 @@
+@import "../../common/colors";
+@import "../../common/screen";
+@import "../../common/variables";
+@import "../../common/mixins";
+
+.reviews-page {
+  font-family: "MuseoCyrl100", serif;
+  margin-bottom: 90px;
+
+  .page__header {
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    font-size: $h2FontSize;
+    font-family: "MuseoCyrl700", serif;
+    //width: 100%;
+  }
+
+  h5 {
+    font-size: $h5FontSize;
+    font-family: "MuseoCyrl700", serif;
+  }
+
+
+}
+
+@media screen and (max-width: 375px) {
+  .reviews-page {
+    h2 {
+      font-size: $h2FontSize375;
+    }
+
+    h5 {
+      font-size: $h4FontSize375;
+    }
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  .reviews-page {
+    h2 {
+      font-size: $h2FontSize375;
+    }
+
+    h5 {
+      font-size: $h3FontSize375;
+    }
+
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 900px) {
+  .reviews-page {
+
+  }
+}

@@ -1,0 +1,35 @@
+.coaches-detailed {
+  font-family: "MuseoCyrl100", serif;
+  margin-bottom: 90px;
+}
+.coaches-detailed .page__header {
+  margin-bottom: 30px;
+}
+.coaches-detailed h2 {
+  font-size: 55px;
+  font-family: "MuseoCyrl700", serif;
+}
+.coaches-detailed h5 {
+  font-size: 25px;
+  font-family: "MuseoCyrl700", serif;
+}
+.coaches-detailed strong {
+  font-family: "MuseoCyrl700", serif !important;
+}
+
+@media screen and (max-width: 375px) {
+  .coaches-detailed h2 {
+    font-size: 20px;
+  }
+  .coaches-detailed h5 {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  .coaches-detailed h2 {
+    font-size: 20px;
+  }
+  .coaches-detailed h5 {
+    font-size: 18px;
+  }
+}

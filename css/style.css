@@ -2547,3 +2547,216 @@ footer .content .s-row a {
     width: 50%;
   }
 }
+.coaches-detailed-page {
+  font-family: "MuseoCyrl100", serif;
+  margin-bottom: 90px;
+}
+.coaches-detailed-page .page__header {
+  margin-bottom: 30px;
+}
+.coaches-detailed-page .coach-avatar img {
+  width: 100%;
+}
+.coaches-detailed-page .desc {
+  height: 100%;
+  padding: 10px;
+}
+.coaches-detailed-page .desc .education h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+.coaches-detailed-page .desc .education ul {
+  list-style-type: none;
+  padding: 0;
+}
+.coaches-detailed-page .desc .education ul li {
+  margin-bottom: 10px;
+}
+.coaches-detailed-page .experience {
+  margin-top: 25px;
+}
+.coaches-detailed-page .experience h3 {
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+.coaches-detailed-page .experience ul {
+  list-style-type: none;
+  padding: 0;
+}
+.coaches-detailed-page .experience ul li {
+  margin-bottom: 10px;
+}
+.coaches-detailed-page .directions {
+  margin-top: 20px;
+}
+.coaches-detailed-page .directions__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 30px;
+  padding: 20px;
+  background-color: #f7f7f7;
+  margin-top: 20px;
+}
+.coaches-detailed-page .directions__wrapper .direction-num {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.coaches-detailed-page .directions__wrapper .direction-num span {
+  font-family: "MuseoCyrl700", serif;
+  color: #f15a29;
+  font-size: 50px;
+  margin-right: 20px;
+}
+.coaches-detailed-page h2 {
+  font-size: 55px;
+  font-family: "MuseoCyrl700", serif;
+}
+.coaches-detailed-page h5 {
+  font-size: 25px;
+  font-family: "MuseoCyrl700", serif;
+}
+.coaches-detailed-page strong {
+  font-family: "MuseoCyrl700", serif;
+}
+
+@media screen and (max-width: 375px) {
+  .coaches-detailed-page {
+    margin-bottom: 90px;
+  }
+  .coaches-detailed-page h2 {
+    font-size: 20px;
+  }
+  .coaches-detailed-page h3 {
+    font-size: 14px !important;
+  }
+  .coaches-detailed-page p, .coaches-detailed-page li {
+    font-size: 12px;
+  }
+  .coaches-detailed-page .coach-avatar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .coaches-detailed-page .coach-avatar img {
+    width: 50%;
+  }
+  .coaches-detailed-page .desc {
+    padding: 0;
+  }
+  .coaches-detailed-page .experience {
+    margin-top: 10px;
+  }
+  .coaches-detailed-page .experience ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .coaches-detailed-page .experience ul li {
+    margin-bottom: 10px;
+  }
+  .coaches-detailed-page .directions {
+    margin-top: 10px;
+  }
+  .coaches-detailed-page .directions__wrapper {
+    margin-top: 20px;
+    padding: 10px;
+  }
+  .coaches-detailed-page .directions__wrapper .direction-num {
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
+  .coaches-detailed-page .directions__wrapper .direction-num span {
+    font-size: 30px;
+  }
+  .coaches-detailed-page .directions__wrapper .direction-num:last-child {
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  .coaches-detailed-page {
+    margin-bottom: 90px;
+  }
+  .coaches-detailed-page h2 {
+    font-size: 20px;
+  }
+  .coaches-detailed-page h3 {
+    font-size: 18px !important;
+  }
+  .coaches-detailed-page p, .coaches-detailed-page li {
+    font-size: 15px;
+  }
+  .coaches-detailed-page .coach-avatar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .coaches-detailed-page .coach-avatar img {
+    width: 50%;
+  }
+  .coaches-detailed-page .desc {
+    padding: 0;
+  }
+  .coaches-detailed-page .experience {
+    margin-top: 10px;
+  }
+  .coaches-detailed-page .experience ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .coaches-detailed-page .experience ul li {
+    margin-bottom: 10px;
+  }
+  .coaches-detailed-page .directions {
+    margin-top: 10px;
+  }
+  .coaches-detailed-page .directions__wrapper {
+    margin-top: 20px;
+    padding: 10px;
+  }
+  .coaches-detailed-page .directions__wrapper .direction-num {
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  .coaches-detailed-page .directions__wrapper .direction-num span {
+    font-size: 30px;
+  }
+  .coaches-detailed-page .directions__wrapper .direction-num:last-child {
+    margin-bottom: 0;
+  }
+}
+.reviews-page {
+  font-family: "MuseoCyrl100", serif;
+  margin-bottom: 90px;
+}
+.reviews-page .page__header {
+  margin-bottom: 30px;
+}
+.reviews-page h2 {
+  font-size: 55px;
+  font-family: "MuseoCyrl700", serif;
+}
+.reviews-page h5 {
+  font-size: 25px;
+  font-family: "MuseoCyrl700", serif;
+}
+
+@media screen and (max-width: 375px) {
+  .reviews-page h2 {
+    font-size: 20px;
+  }
+  .reviews-page h5 {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  .reviews-page h2 {
+    font-size: 20px;
+  }
+  .reviews-page h5 {
+    font-size: 18px;
+  }
+}
