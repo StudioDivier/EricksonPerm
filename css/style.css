@@ -3221,3 +3221,59 @@ footer .content .s-row a {
     font-size: 20px;
   }
 }
+.schedule-page {
+  font-family: "MuseoCyrl100", serif;
+  margin-bottom: 90px;
+}
+.schedule-page h2 {
+  font-size: 55px;
+  font-family: "MuseoCyrl700", serif;
+}
+.schedule-page h5 {
+  font-size: 25px;
+  font-family: "MuseoCyrl700", serif;
+}
+.schedule-page strong {
+  font-family: "MuseoCyrl700", serif;
+}
+.schedule-page .schedule-page__page-header {
+  margin-bottom: 30px;
+}
+.schedule-page .schedule-page__page-header h3 {
+  margin-top: 15px;
+}
+.schedule-page .light {
+  background-color: #ffffff;
+}
+.schedule-page .grey {
+  background-color: #f7f7f7;
+}
+
+@media screen and (max-width: 375px) {
+  .schedule-page h2 {
+    font-size: 20px !important;
+  }
+  .schedule-page h3 {
+    font-size: 18px !important;
+  }
+  .schedule-page h4 {
+    font-size: 14px !important;
+  }
+  .schedule-page p, .schedule-page li {
+    font-size: 12px !important;
+  }
+}
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  .schedule-page h2 {
+    font-size: 20px !important;
+  }
+  .schedule-page h3 {
+    font-size: 18px !important;
+  }
+  .schedule-page h4 {
+    font-size: 14px !important;
+  }
+  .schedule-page p, .schedule-page li {
+    font-size: 15px !important;
+  }
+}
