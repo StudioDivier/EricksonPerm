@@ -1,0 +1,23 @@
+.game-page {
+  font-family: "MuseoCyrl100", serif;
+  margin-bottom: 90px;
+}
+.game-page .game-page__page-header {
+  margin-bottom: 30px;
+}
+.game-page .game-page__page-header h5 {
+  margin-top: 15px;
+  font-family: "MuseoCyrl500", serif;
+}
+
+@media screen and (max-width: 375px) {
+  .game-page h2 {
+    font-size: 20px;
+  }
+  .game-page h4 {
+    font-size: 14px;
+  }
+  .game-page p {
+    font-size: 12px;
+  }
+}

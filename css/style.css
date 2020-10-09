@@ -762,6 +762,7 @@ footer .content .s-row a {
 .near-date .card-date .card-date-label {
   border-radius: 0 0 15px 0;
   background-color: #818181;
+  margin-bottom: 10px;
   width: 35%;
   color: white;
   display: flex;
@@ -777,9 +778,13 @@ footer .content .s-row a {
   background-color: #f7f7f7;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   text-align: center;
   padding: 10px;
   width: 100%;
+}
+.near-date .card-date .date p {
+  margin-bottom: 0;
 }
 .near-date .card-date .card-text {
   padding-top: 15px;
@@ -2434,6 +2439,238 @@ footer .content .s-row a {
   }
   .games-page .buttons-container button {
     padding: 7px 10px !important;
+  }
+}
+.game-page {
+  font-family: "MuseoCyrl100", serif;
+  margin-bottom: 90px;
+}
+.game-page h2 {
+  font-size: 55px;
+  font-family: "MuseoCyrl700", serif;
+}
+.game-page h5 {
+  font-size: 25px;
+  font-family: "MuseoCyrl700", serif;
+}
+.game-page strong {
+  font-family: "MuseoCyrl700", serif;
+}
+.game-page .game-page__page-header {
+  margin-bottom: 30px;
+}
+.game-page .game-page__page-header h3 {
+  margin-top: 15px;
+}
+.game-page .game-page__short-desc {
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 35px;
+}
+.game-page .game-page__short-desc .wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.game-page .game-page__short-desc .subHeader {
+  font-family: "MuseoCyrl700", serif;
+}
+.game-page .game-page__short-desc .subHeader_info {
+  display: flex;
+  align-items: center;
+}
+.game-page .game-page__short-desc .subHeader_info span {
+  margin-left: 15px;
+  width: 50%;
+}
+.game-page .game-page__short-desc .subHeader_info p {
+  font-family: "MuseoCyrl700", serif;
+  color: #f15a29;
+  font-size: 24px;
+}
+.game-page .game-page__description-block {
+  margin-top: 40px;
+}
+.game-page .game-page__description-block h3 {
+  font-size: 45px;
+  font-family: "MuseoCyrl700", serif;
+  margin-bottom: 20px;
+}
+.game-page .game-page__description-block h4 {
+  font-size: 35px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.game-page .game-page__description-block p {
+  font-size: 18px;
+}
+.game-page .game-page__description-block .tasks-wrapper {
+  background-color: #f7f7f7;
+  border-radius: 35px;
+  padding: 20px;
+}
+.game-page .game-page__description-block .tasks-wrapper .single-task {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.game-page .game-page__description-block .tasks-wrapper .single-task span {
+  color: #f15a29;
+  font-family: "MuseoCyrl700", serif;
+  font-size: 50px;
+  margin-right: 20px;
+}
+.game-page .game-page__description-block .tasks-wrapper .single-task p {
+  margin-bottom: 0;
+}
+.game-page .game-page__description-block .what-you-gain {
+  border: 3px solid #f15a29;
+  border-radius: 35px;
+  padding: 30px 40px;
+  margin: 60px 0 40px;
+}
+.game-page .game-page__description-block .what-you-gain ol {
+  padding-left: 20px;
+}
+.game-page .game-page__description-block .what-you-gain ol li {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.game-page .game-page__description-block .what-you-gain ol li:last-child {
+  margin-bottom: 0;
+}
+.game-page .game-page__description-block .the-essence {
+  margin-top: 30px;
+}
+.game-page .game-page__description-block .the-essence img {
+  width: 100%;
+}
+.game-page .game-page__description-block .the-essence .main-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.game-page .game-page__description-block .the-essence .additional-info {
+  margin-top: 30px;
+}
+.game-page .game-page__description-block .tasks-wrapper2 {
+  margin-bottom: 40px;
+}
+.game-page .game-page__description-block .join-us {
+  margin-bottom: 20px;
+}
+.game-page .game-page__description-block .btn-container1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.game-page .game-page__description-block .btn-container1 .btn-orange {
+  width: auto;
+  padding: 10px 20px;
+  margin-right: 10px;
+}
+.game-page .game-page__description-block .btn-container1 .btn-grey {
+  width: auto;
+  padding: 10px 20px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 375px) {
+  .game-page h2 {
+    font-size: 20px !important;
+  }
+  .game-page h3 {
+    font-size: 18px !important;
+  }
+  .game-page h4 {
+    font-size: 14px !important;
+  }
+  .game-page p, .game-page li {
+    font-size: 12px !important;
+  }
+  .game-page .game-page__short-desc {
+    text-align: center;
+    margin: 0;
+  }
+  .game-page .game-page__short-desc .subHeader_info {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .game-page .game-page__short-desc .subHeader_info span {
+    margin: 0;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .game-page .game-page__short-desc .subHeader_info img {
+    width: 20%;
+  }
+  .game-page .tasks-wrapper {
+    margin: 0;
+  }
+  .game-page .tasks-wrapper span {
+    font-size: 20px !important;
+  }
+  .game-page .join-us {
+    margin-bottom: 10px;
+  }
+  .game-page .btn-container1 {
+    justify-content: center;
+  }
+  .game-page .btn-container1 button {
+    padding: 0 15px !important;
+    margin-bottom: 10px;
+  }
+  .game-page .the-essence .main-text {
+    margin-top: 20px;
+  }
+}
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  .game-page h2 {
+    font-size: 20px !important;
+  }
+  .game-page h3 {
+    font-size: 18px !important;
+  }
+  .game-page h4 {
+    font-size: 14px !important;
+  }
+  .game-page p, .game-page li {
+    font-size: 15px !important;
+  }
+  .game-page .game-page__short-desc {
+    text-align: center;
+    margin: 0;
+  }
+  .game-page .game-page__short-desc .subHeader_info {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .game-page .game-page__short-desc .subHeader_info span {
+    margin: 0;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .game-page .game-page__short-desc .subHeader_info img {
+    width: 20%;
+  }
+  .game-page .tasks-wrapper {
+    margin: 0;
+  }
+  .game-page .tasks-wrapper span {
+    font-size: 20px !important;
+  }
+  .game-page .join-us {
+    margin-bottom: 10px;
+  }
+  .game-page .btn-container1 {
+    justify-content: center;
+  }
+  .game-page .btn-container1 button {
+    padding: 0 15px !important;
+    margin-bottom: 10px;
+  }
+  .game-page .the-essence .main-text {
+    margin-top: 20px;
   }
 }
 .coaches-page {
