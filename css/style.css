@@ -2760,3 +2760,227 @@ footer .content .s-row a {
     font-size: 18px;
   }
 }
+.coaching-page {
+  font-family: "MuseoCyrl100", serif;
+  margin-bottom: 90px;
+}
+.coaching-page .coaching-page__page-header {
+  margin-bottom: 30px;
+}
+.coaching-page .coaching-page__page-header h5 {
+  margin-top: 15px;
+  font-family: "MuseoCyrl500", serif;
+}
+.coaching-page .coaching-page__description-header {
+  background-color: #f7f7f7;
+  padding: 30px 30px 50px;
+}
+.coaching-page .coaching-page__description-header h5 {
+  margin-top: 15px;
+  font-family: "MuseoCyrl500", serif;
+}
+.coaching-page .coaching-page__description-header .coaching-page__description-header__points-wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.coaching-page .coaching-page__description-header .coaching-page__description-header__points-wrapper .description__point {
+  text-align: center;
+  height: 100%;
+  padding: 25px 15px 0;
+  background-color: white;
+  border: 4px solid #8e8e8e;
+}
+.coaching-page .coaching-page__description-header .coaching-page__description-header__points-wrapper .description__point img {
+  width: 50%;
+}
+.coaching-page .coaching-page__definition {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 3px solid #f15a29;
+  border-radius: 35px;
+  padding: 30px 35px;
+}
+.coaching-page .coaching-page__definition h3 {
+  margin-bottom: 15px;
+}
+.coaching-page .coaching-page__definition h3:first-child {
+  font-family: "MuseoCyrl700", serif;
+}
+.coaching-page .coaching-page__definition strong {
+  font-family: "MuseoCyrl700", serif;
+}
+.coaching-page .coaching-page__about-coaching {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.coaching-page .coaching-page__about-coaching .about-coaching__text {
+  padding: 20px 10px;
+}
+.coaching-page .coaching-page__erickson-coaching {
+  margin-bottom: 30px;
+}
+.coaching-page .coaching-page__erickson-coaching h3 {
+  margin: 30px 0;
+}
+.coaching-page .coaching-page__erickson-coaching .text-wrapper {
+  padding: 30px 10px;
+  border-radius: 30px;
+  background-color: #f7f7f7;
+}
+.coaching-page .coaching-page__erickson-coaching .text-wrapper li {
+  margin-bottom: 15px;
+}
+.coaching-page .coaching-page__erickson-coaching p {
+  margin-top: 30px;
+}
+.coaching-page .coaching-page__uniqueness {
+  margin-bottom: 30px;
+}
+.coaching-page .coaching-page__uniqueness h3 {
+  font-family: "MuseoCyrl700", serif;
+  margin-bottom: 25px;
+}
+.coaching-page .coaching-page__uniqueness img {
+  width: 100%;
+}
+.coaching-page .coaching-page__uniqueness .text-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.coaching-page .coaching-page__uniqueness .additional-info {
+  margin-top: 30px;
+}
+.coaching-page .results__wrapper {
+  margin-top: 30px;
+  padding: 30px;
+  border-radius: 35px;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-wrap: wrap;
+}
+.coaching-page .results__wrapper .new-line {
+  display: flex;
+  flex-wrap: wrap;
+}
+.coaching-page .results__wrapper .new-line .text {
+  margin-left: 15px;
+}
+.coaching-page .results__wrapper .direction-num {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.coaching-page .results__wrapper hr {
+  border: 1px solid white;
+}
+.coaching-page .results__wrapper .percent {
+  font-family: "MuseoCyrl700", serif;
+  color: #f15a29;
+}
+.coaching-page .results__wrapper .number {
+  font-family: "MuseoCyrl700", serif;
+  color: #f15a29;
+  font-size: 50px;
+}
+.coaching-page h2 {
+  font-size: 55px;
+  font-family: "MuseoCyrl700", serif;
+}
+.coaching-page h5 {
+  font-size: 25px;
+  font-family: "MuseoCyrl700", serif;
+}
+.coaching-page strong {
+  font-family: "MuseoCyrl700", serif;
+}
+
+@media screen and (max-width: 375px) {
+  .coaching-page h2 {
+    font-size: 20px;
+  }
+  .coaching-page h3 {
+    font-size: 18px;
+  }
+  .coaching-page h5 {
+    font-size: 12px;
+  }
+  .coaching-page p, .coaching-page li {
+    font-size: 12px;
+  }
+  .coaching-page ol {
+    padding-left: 20px;
+  }
+  .coaching-page .coaching-page__description-header__points-wrapper {
+    margin-top: 20px !important;
+  }
+  .coaching-page .description__point-wrapper {
+    margin-bottom: 10px;
+  }
+  .coaching-page .description__point-wrapper img {
+    width: 25% !important;
+  }
+  .coaching-page .coaching-page__erickson-coaching h3 {
+    margin-top: 0;
+  }
+  .coaching-page .results__wrapper div {
+    font-size: 12px;
+  }
+  .coaching-page .results__wrapper .wide {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .coaching-page .results__wrapper .wide div {
+    width: 100% !important;
+  }
+  .coaching-page .results__wrapper .number {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  .coaching-page h2 {
+    font-size: 20px;
+  }
+  .coaching-page h3 {
+    font-size: 18px;
+  }
+  .coaching-page h5 {
+    font-size: 12px;
+  }
+  .coaching-page p, .coaching-page li {
+    font-size: 15px;
+  }
+  .coaching-page ol {
+    padding-left: 20px;
+  }
+  .coaching-page .coaching-page__description-header__points-wrapper {
+    margin-top: 20px !important;
+  }
+  .coaching-page .description__point-wrapper {
+    margin-bottom: 10px;
+  }
+  .coaching-page .description__point-wrapper img {
+    width: 25% !important;
+  }
+  .coaching-page .coaching-page__erickson-coaching h3 {
+    margin-top: 0;
+  }
+  .coaching-page .results__wrapper div {
+    font-size: 15px;
+  }
+  .coaching-page .results__wrapper .wide {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .coaching-page .results__wrapper .wide div {
+    width: 100% !important;
+  }
+  .coaching-page .results__wrapper .number {
+    font-size: 20px;
+  }
+}
